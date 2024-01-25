@@ -1,0 +1,162 @@
+/***  javascript history  ***/
+netscape navigator(web browser )--->designed lanuage called mocha--->name chnged to livescript--->then to javascript
+then netcape in 1996 deliver javascript  to ECMA international to make it standerised called ECMA script(standar for all client side script)
+
+
+
+
+
+
+//Install the Recommended version of NodeJS
+
+
+Click Node JS
+
+
+//check the version of NodeJS node -v on cmd
+
+//What is React?
+
+//Install React JS in our system using " npx create-react-app app_name "
+
+//Go to the main directory by typing cd app_name
+
+//How to run the React Project 🤔 Oooo It's simple
+just write the npm start or yarn start command
+
+//Understand the folder Structure
+
+//Remove the Boiler Plate
+
+//What's New in React 17th Version? We will see it after our first component.
+
+//Vs Code Extension to make our React life Easy
+1.VS Code JavaScript (ES6) snippets
+
+2.ES7 React/Redux/GraphQL/React-Native snippets
+
+
+//Hello World In React JS
+
+//Our First Component in React JS
+Three things are mandatory & that are
+import React from "react"
+any one function (functional Component)
+It should always return JSX.
+
+//After React 17.0 Version, Now no need to write
+import React from "react" Anymore
+
+
+
+//What is JSX? Rules to write JSX.
+1.It always return single element
+
+2.use Div or React.Fragment(<>.....</>) to wrap all your JSX Code
+
+3.ClassName in place of class(class keyword already reserved in react)
+
+4.Need to close all non closing Tags in JSX(we dont close img tahg in html but in JSX we have to cloae all tags)
+
+5.Use camelCase for attributes
+
+//Autocomplete for React JSX 😍 Very Important
+1.Open the settings
+
+2.Open Setting(JSON) file located on Top Right Corner
+
+3.Add the following Code => "emmet.includeLanguages": {"javascript": "javascriptreact"},
+
+//What is Nested Components?
+;
+//CSS in React JS
+
+//Props in React JS
+
+//Props Children????
+
+//JS important Methods
+Map Method
+
+Spread Operator & Many More
+
+
+//Events In React JS
+
+
+//Todo List Projects 
+Here is the complete CSS file of Todo List
+
+
+
+
+
+//Weather Application Project
+Here is the complete CSS file of Weather Application List
+
+
+
+
+
+//**************************************NOT IMPORTANT TO ADD import React from 'react' AFTER VERSION 17
+import React from 'react'
+
+const App = () => {
+  return (
+    //in react we say below portion i.e. <div> is basically html but in react it is JSX(means we can javascript with our html part)
+    //you have div or react fragment ot wrap all your JSx code
+    <>
+      <MyName/>{/*NESTED COMPONENT(function)*/}
+      
+      <h1 className="myclass1">Welcome I am Shrishti Jain {9+9}</h1>
+      
+    </>
+    //<p>Give error </p> to resolve wrap it inside parent tag i.e,div/section /react.fragment(best) syntax of react fragment-->  <>.....</>
+  )
+}
+const MyName=()=>{
+  return(
+    <h1>HII EVERYONE</h1>
+  )
+}
+export default App
+
+
+
+
+
+//WE CAN USE CSS BOTH AS INLINE(STYLE={{COLOR:"RED}})  OR AS OBJECT(CONST MYSTYLE={COLOR:RED})
+image.png
+
+//map is required to loop the arrray or to access the old array and make new array
+
+syntax 👽 const newarray= oldarray.map(function,index,array)
+
+
+
+/**** HOOKS --->replaced redux(a state management tool ) ******/
+
+/////// WEATHER API
+627bc5fab5fc2a74a52c8fbb6492852e
+https://api.openweathermap.org/data/2.5/weather?q=pune&appid=627bc5fab5fc2a74a52c8fbb6492852e
+
+
+
+
+//////*******to use component inside other use them as tag////nested component
+example: compoent1: const App=()=>{
+                    return(
+                      <>//react fragment shortcut(sugar format)
+                      <component2/>
+                        :
+                      </>
+                    )
+                    }
+
+                    const component2=()=>{
+                    return(
+                      <div>
+                      :
+                      </div>
+                    )
+                    }
